@@ -4,7 +4,7 @@ import { DATABASE_URL } from '../config';
 export const query = (sql, values = []) => {
   const client = new Client({
     connectionString: DATABASE_URL,
-    ssl: false,
+    ssl: true,
   });
 
   client.connect();
