@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/",
+    "nodemon": "nodemon --exec babel-node ./src/index.js --presets stage-2"
+  },
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +18,12 @@
   "dependencies": {
     "pg": "^7.11.0",
     "server": "^1.0.18"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.19.1"
   }
 }
