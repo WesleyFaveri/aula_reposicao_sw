@@ -8,5 +8,8 @@
   ],
   "ignore": [
       "node_modules",
+      "src/public/**",
+      "src/public/js/**",
+      "src/public/lib/**"
     ]
 }
