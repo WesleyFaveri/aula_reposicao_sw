@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docs": "node ./node_modules/apidoc/bin/apidoc -i src/ -o docs/",
     "build": "babel src -d dist --presets stage-2 --copy-files",
     "start": "node dist/index.js --dev",
     "nodemon": "nodemon --exec babel-node ./src/index.js --presets stage-2",
@@ -21,6 +22,7 @@
     "server": "^1.0.18"
   },
   "devDependencies": {
+    "apidoc": "^0.17.7",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^9.0.0",
     "babel-preset-env": "^1.7.0",
