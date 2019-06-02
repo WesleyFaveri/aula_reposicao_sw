@@ -12,6 +12,6 @@ Para ver os endpoints e quais parâmetros necessarios:
 Irá criar uma pasta chamada Docs, basta abrir o `index.html`
 
 ##### Disponível em produção pelo heroku
-> [Link](/https://aulareposicaosw.herokuapp.com/)
+> [Link](https://aulareposicaosw.herokuapp.com/)
 
 [Tabelas](/sqldocs.md)
