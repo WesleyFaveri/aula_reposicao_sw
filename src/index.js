@@ -3,6 +3,8 @@ import routes from './modules/routes';
 
 const options = {
   port: process.env.PORT || 3005,
+  engine: 'html',
+  views: './src/views',
   public: './src/public',
   security: {
     csrf: false,
